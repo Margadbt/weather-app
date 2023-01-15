@@ -9,6 +9,9 @@
 
 body{
   height: 100vh;
+  background-image: url("/assets/anime-sky.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #242424;
   display: flex;
   justify-content: center;
