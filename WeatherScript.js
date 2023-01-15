@@ -104,3 +104,11 @@ function weatherDetails(info){
 arrowBack.addEventListener("click", ()=>{
   wrapper.classList.remove("active");
 });
+
+const noGif = document.querySelector(".no-gif");
+if(noGif){
+  noGif.addEventListener('click', ()=>{
+    console.log("lol");
+    document.body.style.backgroundImage = "url('assets/nogif.jpg')";
+  }, false);
+}
