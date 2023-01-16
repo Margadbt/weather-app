@@ -70,24 +70,31 @@ function weatherDetails(info){
 
     if(id == 800){
       wIcon.src = "assets/clear.png";
+      wrapper.querySelector(".weather").innerText = "Цэлмэг тэнгэртэй";
     }else if(id >= 200 && id <=232){
       wIcon.src = "assets/storm.png";
+      wrapper.querySelector(".weather").innerText = "Аянга цахилгаантай";
     }else if(id >= 600 && id <=622){
       wIcon.src = "assets/snow.png";
+      wrapper.querySelector(".weather").innerText = "Цастай";
     }else if(id >= 701 && id <=781){
       wIcon.src = "assets/mist.png";
+      wrapper.querySelector(".weather").innerText = "Манантай";
     }else if(id >= 801 && id <=804){
       wIcon.src = "assets/cloud.png";
+      wrapper.querySelector(".weather").innerText = "Үүлэрхэг";
     }else if(id >= 300 && id <=321){
       wIcon.src = "assets/drizzle.png";
+      wrapper.querySelector(".weather").innerText = "Шиврээ бороотой";
     }else if(id >= 500 && id <=531){
       wIcon.src = "assets/rain.png";
+      wrapper.querySelector(".weather").innerText = "Бороотой";
     }
 
 
 
     wrapper.querySelector(".temp .numb").innerText = Math.floor(temp);
-    wrapper.querySelector(".weather").innerText = description;
+
     wrapper.querySelector(".location span").innerText = `${city}, ${country}`
     wrapper.querySelector(".feels .numb").innerText = Math.floor(feels_like);
     wrapper.querySelector(".humidity .numb").innerText = humidity;
