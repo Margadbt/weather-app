@@ -23,6 +23,7 @@ body{
   width: 400px;
   background-color: white;
   border-radius: 1.25rem;
+  box-shadow: 0 10px 10px rgb(0, 0, 0, 0.2);
 }
 
 .wrapper header{
