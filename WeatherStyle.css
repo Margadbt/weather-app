@@ -191,6 +191,12 @@ button i{
   font-size: 14px;
   margin-top: -6px;
 }
+.details .met{
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-left: 3px;
+}
 
 .divider{
   height: 1px;
